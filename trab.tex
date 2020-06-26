@@ -1,5 +1,5 @@
 \documentclass[12pt,a4paper]{article}
-% Trabalho de Política I
+% Trabalho de Política III
 % Pedro T. R. Pinheiro (8983332)
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
@@ -10,9 +10,15 @@
 
 \newenvironment{citac}
 {
-	\begin{addmargin}
-		[4cm]{1em} \footnotesize}{\normalfont 
-	\end{addmargin}
+	%\begin{addmargin}
+	%	[4cm]{1em} \footnotesize}{\normalfont 
+	%\end{addmargin}
+	
+	% https://tex.stackexchange.com/questions/22308/set-width-of-a-custom-environment
+	\par\setlength{\leftskip}{4cm}\noindent\ignorespaces
+	\footnotesize}{\normalfont
+	\par
+
 	% Para exportar para RTF
 %	\footnotesize }{ \normalfont
 }
@@ -32,7 +38,7 @@ da FFLCH/USP, de número USP 8983332. }}
 
 	É a \textit{liberdade} um dos mais escorregadios conceitos da 
 	filosofia moral e política. ”Ser livre” é quase sempre uma 
-	contingênia cujos contornos variam em função de tempo, cultura, 
+	contingência cujos contornos variam em função de tempo, cultura, 
 	religião e preceitos filosóficos. De qualquer maneira, é a 
 	liberdade componente integral às democracias contemporâneas. E, 
 	como tal, profundamente influenciada pelo pensamento iluminista, 
@@ -58,7 +64,7 @@ da FFLCH/USP, de número USP 8983332. }}
 	Como bem aponta Isaiah Berlin, estes modelos se colidem, entram em 
 	choque. Choque este quase sempre observável em considerável parte 
 	das discussões políticas de nosso período. Dentro deste contexto 
-	parece estar, a primeira vista, o artigo ”Isaiah Berlin: Afirmação 
+	parece estar, a primeira vista, o artigo “Isaiah Berlin: Afirmação 
 	e Limitação da Liberdade”, de J. Casarin, que aqui será usado como 
 	forma de observar sob quais princípios e elementos fundamentais se 
 	dá a crítica contemporânea ao pensamento liberal e a ideia de 
@@ -123,7 +129,7 @@ da FFLCH/USP, de número USP 8983332. }}
 		(\cite{casarin}, p. 287)
 	\end{citac}
 	
-	O segundo ponto de Casarin -- sobre a ”divisão do eu” e o 
+	O segundo ponto de Casarin -- sobre a “divisão do eu” e o 
 	antipaternalismo -- inicia-se confirmando que, para certas correntes 
 	políticas, de fato, o fenômeno da emancipação é condição 
 	\textit{sine-qua-non} para a produção do indivíduo: 
@@ -148,7 +154,7 @@ da FFLCH/USP, de número USP 8983332. }}
 	totalitarismo em nome de um porvir emancipatório 
 	permanentemente adiado”, novamente evocando a ideia de que houve uma 
 	“promessa” de liberdade, mas que nem sempre ela será cumprida. 
-	A herença liberal nos teria dado uma desconfiança para com o poderio 
+	A herança liberal nos teria dado uma desconfiança para com o poderio 
 	estatal, e Berlin usa desta mesma espada para pelejar contra o 
 	paternalismo, dentro do qual o “eu” se edulcoraria, desapareceria. 
 
@@ -203,28 +209,64 @@ da FFLCH/USP, de número USP 8983332. }}
 	Em suma, dentro de uma perspectiva liberal, o crescimento do aparato 
 	estatal eclipsa o indivíduo. E, dentro de uma perspectiva, por assim 
 	dizer, ”progressista”, o crescimento do indivíduo aprofunda as feridas 
-	da desiguldade social. São perspectivas irreconciliáveis, sob as quais 
-	Berlin pode estar basnte correto ao falar sobre incomensurabilidade. 
+	da desigualdade social. São perspectivas irreconciliáveis, sob as quais 
+	Berlin pode estar bastante correto ao falar sobre incomensurabilidade. 
 
 	É, entretanto, no terceiro ponto em que Casarin desvela todo seu 
-	arsenal crítico. 
+	arsenal crítico. Há muitos detalhes importantes, nesta seção, contudo, 
+	acredito que um dos principais pontos desta crítica esteja nesta 
+	passagem: 
 
-	\newpage
+	\begin{citac}
+		Além do mais, Berlin deixa de lado o fato de
+		que a liberdade negativa tem componentes positivos: 
+		ela mesma é uma conquista coletiva e, embora seja 
+		desfrutada individualmente, é um bem comum, coletivamente 
+		conquistado, e necessita ser coletivamente garantido. 
+		Se a todos diz respeito uma vida privada e inviolável, 
+		a inviolabilidade e a privacidade necessitam 
+		ser garantidas pela \textbf{esfera pública}.
+	\end{citac}
 
-	A tese de Berlin, entretanto, repousa sobre um paradigma cujo(a?)
-	[FANCY STUFF] a faz ser bastante vulnerável às críticas de pensadores 
-	com viés um pouco mais materialista, como os marxistas, por exemplo. 
-	É o que se observa em um artigo de Júlio César Casarin [INSERT THE GODDAM NAME]
+	Aqui, em grande medida, não há grandes novidades. Um tema comum à 
+	crítica por parte de Casarin perpassa pela suposta capacidade 
+	do liberal em lidar com um cenário em que as pessoas parecem não 
+	estar prontas para exercer seus direitos civis em toda a plenitude, 
+	e, portanto, precisam passar por esta emancipação, como já 
+	comentado mais acima. Mas, interessantemente, esta menção à 
+	“esfera pública” remete a um conceito genuinamente social democrata, 
+	fortemente presente em autores como Jürgen Habermas, emprestando um 
+	viés frankfurtiano à crítica de Casarin. 
+
+	Da perspectiva da teoria crítica o individualismo é importante, 
+	mas desponta como uma segunda preocupação, já que, em geral, é 
+	mais importante garantir igualdade para que os mais diversos grupos 
+	dentro da sociedade consigam ter voz dentro desta esfera pública. 
+	Dar voz aos grupos ajuda emancipar os indivíduos que, de outra 
+	maneira, estariam à margem da discussão política por constituírem 
+	minorias. Desta maneira, a social democracia procura mesclar uma 
+	reminiscência de democracia direta, procurando corrigir as distorções 
+	provocadas por uma democracia “convencional” (i.e. uma tirania da 
+	maioria, como coloca Berlin), em que o desejo da maioria não só 
+	sobrepujaria o indivíduo, mas também as necessidades de grupos 
+	minoritários. 
+
+	Desta forma, parece haver uma forma de controlar um cenário de 
+	liberdade positiva, sem que se desemboque, automaticamente, numa 
+	tirania ao estilo soviético, em que o burocrata detém sapiência 
+	praticamente ilimitada para guiar a população rumo à liberdade. 
+	Portanto, os frankfurtianos parecem confiar na formação de 
+	instituições populares fortes capazes de, coletivamente, exercerem 
+	um controle sobre o poder centralizado. 
 	
-	[JUNTAR PARÁGRAFO]
-	Nesse sentido, esta ”incomensurabilidade” professada pelo professor 
-	de Oxford, parece ter um sentido ainda mais profundo: tão imenso  
-	quanto o corte epistemológico entre os dogmáticos apontados por Kant 
-	e os entusiastas da epistemologia forjada pela bigorna das ciências 
-	naturais, há um abismo entre aqueles que postulam, de alguma maneira, 
-	um aperfeiçoamento intelectual da sociedade e os que perseguem a ideia 
-	de justiça social. [REPENSAR ISTO]
+	É natural, portanto, que, para Casarin, a defesa ardente de uma 
+	perspectiva liberal soe como um “argumento de ameaça”, afinal, 
+	o temor ante a pura e simples perspectiva da ascensão de uma 
+	“liberdade positiva” não é justificável, pois os novos tempos 
+	forneceriam uma alternativa tanto à possibilidade de uma nova 
+	tirania quanto à dificuldade em se controlar a liberdade negativa. 
 	
+	[EM PROGRESSO]
 
 	%\begin{thebibliography}{9}
 	%	\bibitem{adorno}
